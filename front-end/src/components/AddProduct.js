@@ -35,7 +35,7 @@ const AddProduct=()=>{
 
     return(
         <div className="register">
-            <h1>Add Product</h1>
+            <h1>Add Product here</h1>
             <input className="inputbox" type="text" value={title} onChange={(e)=>{setTitle(e.target.value)}} placeholder="Enter Product Name" />
              { error && !title && <span>Name Invalid</span>}
             <input className="inputbox" type="text" value={price} onChange={(e)=>{setPrice(e.target.value)}} placeholder="Enter Product Price" />
